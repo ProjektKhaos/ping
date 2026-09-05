@@ -1,0 +1,17 @@
+{
+  "waterlevel_data": {
+    "data": [
+      {
+        "station": {
+          "tele_station_id": 3226,
+          "tele_station_oldcode": "P.1"
+        },
+        "waterlevel_datetime": "2026-08-21 06:00:00",
+        "waterlevel_msl": 301.84,
+        "storage_percent": 52.32,
+        "situation_level": 3,
+        "discharge": 38.4
+      }
+    ]
+  }
+}

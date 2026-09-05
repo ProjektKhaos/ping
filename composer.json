@@ -1,0 +1,25 @@
+{
+  "name": "abergonline/ping-flood-watch",
+  "description": "Mobile Ping River flood-awareness PWA for Chiang Mai",
+  "license": "proprietary",
+  "type": "project",
+  "require": {
+    "php": ">=8.2",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "ext-pdo": "*",
+    "minishlink/web-push": "^11.0",
+    "guzzlehttp/guzzle": "^7.9"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^11.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "PingFloodWatch\\": "app/"
+    }
+  },
+  "scripts": {
+    "test": "phpunit --configuration phpunit.xml"
+  }
+}

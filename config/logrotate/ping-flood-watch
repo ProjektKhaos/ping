@@ -1,0 +1,10 @@
+/var/www/abergonline/ping/storage/logs/*.log {
+    daily
+    rotate 30
+    compress
+    delaycompress
+    missingok
+    notifempty
+    create 0640 www-data www-data
+    su www-data www-data
+}

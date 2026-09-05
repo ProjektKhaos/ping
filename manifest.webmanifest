@@ -1,0 +1,16 @@
+{
+  "id": "./",
+  "name": "Ping Flood Watch",
+  "short_name": "Ping Watch",
+  "description": "Chiang Mai river and upstream rainfall monitoring",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f8fa",
+  "theme_color": "#0c6db2",
+  "lang": "en",
+  "icons": [
+    {"src": "assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}
+  ]
+}

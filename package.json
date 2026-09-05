@@ -1,0 +1,20 @@
+{
+  "name": "ping-flood-watch",
+  "private": true,
+  "scripts": {
+    "assets": "bash scripts/build-assets.sh",
+    "test:e2e": "playwright test"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.13.0",
+    "@fontsource-variable/noto-sans-thai": "5.3.0",
+    "@fontsource-variable/roboto": "5.3.0",
+    "@playwright/test": "1.62.1",
+    "chart.js": "4.5.1",
+    "material-symbols": "0.40.2"
+  },
+  "dependencies": {
+    "leaflet": "^1.9.4",
+    "leaflet.markercluster": "^1.5.3"
+  }
+}

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Ping Flood Watch">
+  <rect width="512" height="512" rx="112" fill="#0c6db2"/>
+  <path d="M256 82C193 172 143 225 143 299c0 68 50 122 113 122s113-54 113-122c0-74-50-127-113-217Z" fill="#fff"/>
+  <path d="M184 312c33-23 68 23 105 0 14-9 29-14 44-12-1 47-34 84-77 84-38 0-69-28-72-72Z" fill="#7ecdf1"/>
+</svg>

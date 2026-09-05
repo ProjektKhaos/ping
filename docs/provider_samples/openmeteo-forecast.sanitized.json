@@ -1,0 +1,17 @@
+{
+  "latitude": 19.0,
+  "longitude": 99.0,
+  "timezone": "Asia/Bangkok",
+  "hourly_units": {
+    "time": "iso8601",
+    "precipitation": "mm",
+    "precipitation_probability": "%",
+    "weather_code": "wmo code"
+  },
+  "hourly": {
+    "time": ["2026-08-21T07:00", "2026-08-21T08:00"],
+    "precipitation": [0.3, 0.1],
+    "precipitation_probability": [72, 64],
+    "weather_code": [61, 61]
+  }
+}

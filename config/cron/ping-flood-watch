@@ -1,0 +1,7 @@
+MAILTO=""
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+*/5 * * * * www-data /usr/bin/php /var/www/abergonline/ping/cron/collect-water.php >> /var/www/abergonline/ping/storage/logs/cron-water.log 2>&1
+*/15 * * * * www-data /usr/bin/php /var/www/abergonline/ping/cron/collect-weather.php >> /var/www/abergonline/ping/storage/logs/cron-weather.log 2>&1
+* * * * * www-data /usr/bin/php /var/www/abergonline/ping/cron/dispatch_push.php >> /var/www/abergonline/ping/storage/logs/cron-push.log 2>&1
+17 2 * * * www-data /usr/bin/php /var/www/abergonline/ping/cron/retention.php >> /var/www/abergonline/ping/storage/logs/cron-retention.log 2>&1
+43 2 * * * root /var/www/abergonline/ping/scripts/backup.sh >> /var/www/abergonline/ping/storage/logs/cron-backup.log 2>&1

@@ -1,0 +1,16 @@
+/vendor/
+/node_modules/
+.phpunit.cache/
+/test-results/
+/playwright-report/
+/storage/logs/*.log
+/storage/cache/*
+/storage/locks/*
+!/storage/logs/.gitkeep
+!/storage/cache/.gitkeep
+!/storage/locks/.gitkeep
+.phpunit.cache/
+/test-results/
+/playwright-report/
+.env
+app/config.local.php

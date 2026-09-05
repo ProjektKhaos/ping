@@ -1,0 +1,11 @@
+{
+  "result": "OK",
+  "data": {
+    "min_bank": 304.2,
+    "ground_level": 299.68,
+    "graph_data": [
+      {"datetime": "2026-08-21 05:00:00", "value": 301.84, "discharge": 38.4},
+      {"datetime": "2026-08-21 06:00:00", "value": 301.84, "discharge": 38.4}
+    ]
+  }
+}
